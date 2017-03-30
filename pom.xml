@@ -52,21 +52,10 @@
 
     <repositories>
         <repository>
-            <id>central</id>
+            <id>central-repo</id>
+            <name>Central Repository</name>
             <url>http://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
         </repository>
     </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <url>http://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>
