@@ -10,9 +10,9 @@ import org.springframework.web.servlet.view.JstlView;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class PptestApplication {
+public class PpTestApp {
 	public static void main(String[] args) {
-		SpringApplication.run(PptestApplication.class, args);
+		SpringApplication.run(PpTestApp.class, args);
 	}
 
 	@Bean
