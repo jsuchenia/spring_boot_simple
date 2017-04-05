@@ -13,7 +13,7 @@ import java.util.Map;
 public class RootController {
     @GetMapping("/")
     @ResponseBody
-    public String welcome() {
-       return "Litwo, ojczyzno moja, ty jestes jak zdrowie!";
+    public ModelAndView welcome() {
+        return new ModelAndView("index");
     }
 }
