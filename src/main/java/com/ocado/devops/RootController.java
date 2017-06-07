@@ -14,6 +14,6 @@ public class RootController {
     @GetMapping("/")
     @ResponseBody
     public ModelAndView welcome() {
-        return new ModelAndView("index");
+        return new ModelAndView("index_en");
     }
 }
